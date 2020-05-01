@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tetris</title>
+        <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <button class="start pause">START</button>        
+
+        <div class="previous-shape">
+            <div class="previous-grid">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>        
+            <div id="score-container">
+                <h2 class="score-display">0</h2>
+                <h2 class="lines-display">0</h2>
+            </div>    
+        </div>       
+
+        <div class="game">
+            <div class="grid">                
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="left"><<</button>
+            <button id="right">>></button>
+            <button id="down">v</button>
+            <button id="rotate">R</button>
+        </div>
+
+    </body>
+    <script src="main.js"></script>
+</html>
