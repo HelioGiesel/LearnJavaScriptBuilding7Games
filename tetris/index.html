@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="style.css">    
     </head>
     <body>
+        <!-- button to start or pause -->
         <button class="start pause">START</button>        
 
+        <!-- display the next tetrominoe -->
         <div class="previous-shape">
             <div class="previous-grid">
                 <div></div>
@@ -29,17 +31,21 @@
                 <div></div>
                 <div></div>
             </div>        
+
+            <!-- display the score and lines filled -->
             <div id="score-container">
                 <h2 class="score-display">0</h2>
                 <h2 class="lines-display">0</h2>
             </div>    
         </div>       
 
+        <!-- main grid of the game, squares to be filled through js -->
         <div class="game">
             <div class="grid">                
             </div>
         </div>
 
+        <!-- visual buttons for mobile plataforms controls -->
         <div class="controls">
             <button id="left"><<</button>
             <button id="right">>></button>
