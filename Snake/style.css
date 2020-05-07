@@ -1,0 +1,71 @@
+body {
+    background-color: #ddaa5e   ;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: #553a3a;
+    background-color: saddlebrown;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;    
+}
+
+.snake {
+    background-color: #ddaa5e;
+}
+
+.apple {   
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><path d="M 0,11 C 1,5 7,2 9,7 L 11,7 C 11,2 18,5 19,10 L 19,14 C 18,14 19,17 15,19 L 12,19 L 11,18 L 9,18 L 8,19 L 5,19 C 2,17 0,16 0,11" style="fill:red;"/><path d="M 10,7 C 8,5 10,2 14,0 C 16,2 13,5 10,7" style="fill:green;"/></svg>') no-repeat;    
+}
+
+.controls {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    left: 25px;
+    background-color: #ddaa5e;
+}
+
+.controls button {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #ddaa5e;
+    color: #553a3a;
+    border-color: #553a3a;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top:50px;
+}
+
+#up {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+#down {
+    position: absolute;
+    bottom: 0;
+    right: 50px;    
+}
