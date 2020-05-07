@@ -1,0 +1,77 @@
+h3{
+    padding-left: 100px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px; 
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    background-color: #252525;
+}
+
+.shooter {    
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><polygon points="0,4 3,10 3,14 5,14 5,10 6,10 6,5 9,0 9,6 10,6 10,0 13,5 13,10 14,10 14,14 16,14 16,10 19,04 19,19 14,17 10,19 9,19 5,17 0,19" style="fill:%232072ff;" /></svg>') no-repeat;   
+}
+
+.invader {       
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><path d="M0,9 C5,9 4,5 9,5 C14,5 14,9 19,9 C14,9 14,10 9,14 C4,9 5,9 0,9" style="fill:%2355ff55;"/></svg>') no-repeat;   
+}
+
+.boom {  
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><polygon points="0,5 6,5 9,0 13,5 18,5 14,10 18,14 14,14 9,19 6,14 0,14 4,9 0,5" style="fill:%23ff9100; stroke:%23d70404;stroke-width:2"/></svg>') no-repeat;   
+}
+
+.laser {
+    background: linear-gradient(90deg, #252525, red, #252525) no-repeat;     
+    background-size: 6px 20px;
+    background-position: center;
+}
+
+.controls {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    left: 20px
+}
+
+.controls button {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;  
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#right {
+    position: absolute;
+    left: 70px; 
+    top:20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#fire {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 100px;
+    position: absolute;
+    left: 170px; 
+    top: 20px;
+}
