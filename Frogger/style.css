@@ -1,0 +1,100 @@
+button {
+    width: 180px;    
+}
+
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+    background-color: sienna;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;    
+}
+
+.ending-block {
+    border-radius: 10px;
+    background: radial-gradient(white 10%, red 25%,white 40%, red 55%, white 70%);    
+}
+
+.starting-block {   
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><path d="M 2 7 L 9 0 L 17 7 l -5 0 l 0 7 l -5 0 l 0 -7 L 2 7" style="fill:blue;"/></svg>') no-repeat;
+}
+
+.l1, .l2, .l3 {
+    background: linear-gradient(#add8e6 5%, rgb(110, 43, 17) 15%, brown 60%, rgb(110, 43, 17) 90%, #add8e6 103%);
+
+}
+
+.frog{
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><path d="M 2,10 l-1,0 l-1,1 l 0,6 l 2,2 L17,19 l2,-2 l0,-6 l-1,-1 l-1,0" style="fill:green; stroke:black; stroke-width:1"/><path d="M 5,13 l-3,-3 l3,-3 l0,-5 l1,-1 l1,0 l1,1 l0,2 l3,0 l0-2 l1,-1 l1,0 l1,1 l0,5 l3,3 l-3,3" style="fill:%2300b000; stroke:black; stroke-width:1"/></svg>') no-repeat;
+}
+
+.c1 {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><path d="M 0 14 L 0 9 L 4 9 L 6 5 L 13 5 L 15 9 L 19 9 L 19 14 L 16 14 C 16 17 11 17 11 14 L 7 14 C 7 17 2 17 2 14 L 0 14" style="fill:black;"/></svg>') no-repeat;
+}
+
+.car-left{
+    background-color: grey;
+    border-top: 1px solid yellow;    
+}
+
+.car-right{
+    background-color: grey;
+}
+
+.c2, .c3{
+    background-color: grey;
+}
+
+
+
+.l4, .l5 {
+    background: linear-gradient(#add8e6, #9cafc7, lightblue, #9cafc7, #add8e6);   
+}
+
+.controls {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    left: 15px;       
+}
+
+.controls button {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;   
+    background-color: sienna;    
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top:50px;
+}
+
+#up {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+#down {
+    position: absolute;
+    bottom: 0;
+    right: 50px;    
+}
